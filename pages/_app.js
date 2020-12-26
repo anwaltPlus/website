@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="Юридична компанія «Anwalt plus»" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        {/* <meta name="google-site-verification" content="j-9CrH-_vN5HY-u4yki83x243toKjNtNg2r6TDuDmKg" /> */}
+        <meta name="google-site-verification" content="ZSc14bTqowNIQqDNpDEAOz9A8FT3HDquR1oSyHOuJNc" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} router={router} />
