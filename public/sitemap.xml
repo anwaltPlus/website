@@ -1,0 +1,18 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://anwaltplus.org//contacts</loc>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://anwaltplus.org/</loc>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://anwaltplus.org//services/index</loc>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://anwaltplus.org//services/[id]/index</loc>
+    <changefreq>hourly</changefreq>
+  </url>
+</urlset>
