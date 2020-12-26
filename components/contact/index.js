@@ -60,7 +60,7 @@ const ContactWithMap = () => (
           </Flex>
           <Flex mt={15} alignItems="center">
             <Box mr='10px'>{I.mail()}</Box>
-            <StyledLink color="#005a87" href="anwaltplus@ukr.net">
+            <StyledLink color="#005a87" href="mailto:anwaltplus@ukr.net">
             anwaltplus@ukr.net
             </StyledLink>
           </Flex>
