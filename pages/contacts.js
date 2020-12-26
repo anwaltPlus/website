@@ -7,7 +7,7 @@ import * as I from '../icons';
 import { Box, Img, Flex, Text, H1, H2, H3, Article, Section, StyledLink } from '../ui';
 // //////////////////////////////////////////////////
 
-const keywords = 'Юридична компанія «Anwalt plus», м. Львів, вул. Словацького, 1 (приміщення головної пошти), anwaltpl@gmail.com, +38 (067) 676 06 04, +38 (063) 676 06 04, +380676760604';
+const keywords = 'Юридична компанія «Anwalt plus», м. Львів, вул. Словацького, 1 (приміщення головної пошти), anwaltplus@ukr.net, +38 (067) 676 06 04, +38 (063) 676 06 04, +380676760604';
 
 const Contacts = ({ router }) => (
   <Layout title="Контакти" router={router} keywords={keywords}>
@@ -60,8 +60,8 @@ const Contacts = ({ router }) => (
           </Flex>
           <Flex mt={15} alignItems="center">
             <Box mr='10px'>{I.mail()}</Box>
-            <StyledLink color="#005a87" href="mailto:anwaltpl@gmail.com">
-              anwaltpl@gmail.com
+            <StyledLink color="#005a87" href="mailto:anwaltplus@ukr.net">
+              anwaltplus@ukr.net
             </StyledLink>
           </Flex>
         </Box>
