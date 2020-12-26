@@ -11,7 +11,7 @@ import { Box, Img, Flex, Text, H1, H2, H3, Article, Section, Grid, BoxHovered } 
 const keywords = 'юрист львів, юредична компанія львів, юридична компанія у львові, адвокат львів, послуги бізнесу, інтелектуальна власність, нерухомість та будівнитство, послуги у сфері міграційного права, ліцензії та дозволи, представництво в судах, митно брокерські послуги, довідки виписки, візова підтримка, консультація юриста';
 
 const Home = ({ router }) => (
-  <Layout title="Головна" router={router} keywords={keywords}>
+  <Layout title="Юридична компанія «Anwalt plus»" router={router} keywords={keywords}>
     <Img
       width="100%"
       height="calc(100vh - 122px)"
