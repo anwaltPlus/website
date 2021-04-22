@@ -10,8 +10,31 @@ import { Box, Img, Flex, Text, H1, H2, H3, Article, Section, Grid, BoxHovered } 
 
 const keywords = 'юрист львів, юредична компанія львів, юридична компанія у львові, адвокат львів, послуги бізнесу, інтелектуальна власність, нерухомість та будівнитство, послуги у сфері міграційного права, ліцензії та дозволи, представництво в судах, митно брокерські послуги, довідки виписки, візова підтримка, консультація юриста';
 
+const frontPageStyles = {
+  backgroundSize: 'cover',
+};
+
 const Home = ({ router }) => (
   <Layout title="Юридична компанія «Anwalt plus»" router={router} keywords={keywords}>
+    {/* <Flex
+      width="100%"
+      alignItems="center"
+      justifyContent='center'
+      styles={frontPageStyles}
+      height="calc(100vh - 122px)"
+      background="url(/buildings.jpg) no-repeat center center"
+    >
+      <H1
+        color="white"
+        fontSize="3em"
+        fontWeight="bold"
+        textAlign="center"
+        textShadow="#474747 3px 5px 2px"
+      >
+        Юридична компанія «Anwalt plus» <br />
+        Послуги юристів і адвокатів
+      </H1>
+    </Flex> */}
     <Img
       width="100%"
       height="calc(100vh - 122px)"

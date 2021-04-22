@@ -78,6 +78,7 @@ export const Flex = styled(Box)`
   ${flexDirection}
   ${justifyContent}
 
+  background: ${({ background }) => background};
   display: ${({ display }) => display || 'flex'};
 `;
 
@@ -110,6 +111,7 @@ export const PageWrapper = styled.div`
 export const Header = styled.header`
   max-width: 1920px;
   margin: 0 auto;
+  padding: 10px 20px;
   border-bottom: 2px solid #413189;
 `;
 
@@ -137,6 +139,7 @@ export const H1 = styled.h1`
   ${textAlign}
   ${lineHeight}
   ${fontWeight}
+  text-shadow: ${({ textShadow }) => textShadow};
 `;
 
 export const H2 = styled.h2`
