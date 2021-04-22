@@ -130,7 +130,7 @@ const HeaderComponent = ({ isMenuOpened, setIsOpenedMenu, handleGoToHomePage }) 
       fontWeight="bold"
       textAlign="center"
     >
-      Послуги юристів і адвокат
+      Послуги юристів і адвокатів
   </HeaderTitleV2>
   </Header>
 );
